@@ -1,0 +1,89 @@
+{
+  "name": "gateway-docs",
+  "version": "1.0.7",
+  "description": "Documents of trackmaster API for public.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --hot --config webpack.dev.js",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.prod.js",
+    "build-dev": ""
+  },
+  "author": "TrackFE Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-syntax-decorators": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "@webpack-cli/init": "^0.1.2",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.5.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-alias": "^1.0.3",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-reporter": "^6.0.0",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  },
+  "repository": {},
+  "h5bp-configs": {
+    "directories": {
+      "archive": "archive",
+      "dist": "documentation",
+      "src": "src",
+      "test": "test"
+    },
+    "lib": {
+      "desc": "公共资源 API",
+      "domain": "track.admasterapi.com",
+      "protocol": "https",
+      "version": "lib_v1"
+    },
+    "api": {
+      "desc": "Track API v2",
+      "name": "TrackMaster",
+      "domain": "track.admasterapi.com",
+      "protocol": "https",
+      "version": "api_v2",
+      "limits_15": 180,
+      "date_format": "YYYY-MM-DD"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "bulma": "^0.7.2",
+    "classnames": "^2.2.6",
+    "font-awesome": "^4.7.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "mobx": "^5.6.0",
+    "mobx-react": "^5.3.6",
+    "mobx-react-router": "^4.0.5",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "react-hot-loader": "^4.3.12",
+    "react-router-dom": "^4.3.1"
+  }
+}
