@@ -6,3 +6,14 @@ A graphql practise using
 [graphql-yoga](https://github.com/prisma/graphql-yoga)  
 [graphql-sequelize](https://github.com/mickhansen/graphql-sequelize)  
 [sqlite3](https://www.sqlite.org/index.html)  
+
+# usage
+
+```sh
+cd server && npm start
+```
+
+# listen
+```
+MIT
+```
