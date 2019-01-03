@@ -3,6 +3,7 @@ import BaseComponent from './base'
 import Header from './header'
 import { RouterStore } from '@app/stores/route'
 import Doc from './doc'
+import Foot from './foot'
 import { observer } from 'mobx-react'
 
 export default class Home extends BaseComponent {
@@ -12,6 +13,7 @@ export default class Home extends BaseComponent {
       <div className='layout'>
         <Header />
         <Doc />
+        <Foot />
       </div>
     )
   }

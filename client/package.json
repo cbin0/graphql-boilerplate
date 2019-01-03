@@ -1,8 +1,8 @@
 {
   "name": "gateway-docs",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "Documents of trackmaster API for public.",
-  "main": "main.js",
+  "main": "main.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --hot --config webpack.dev.js",
@@ -72,6 +72,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
     "bluebird": "^3.5.3",
     "bulma": "^0.7.2",
     "classnames": "^2.2.6",

@@ -15,9 +15,24 @@ export default class Home extends BaseComponent {
 
   render() {
     return (
-      <div>
-        {this.props.doc.docId}
-        <div>{this.props.doc.content}</div>
+      <div className="content">
+        <div className="columns">
+          <div className="column has-text-centered">
+            First column
+          </div>
+          <div className="column has-text-centered">
+            Second column
+          </div>
+          <div className="column is-4 has-text-centered">
+            {this.props.doc.id}: {this.props.doc.content}
+          </div>
+          <div className="column has-text-centered">
+            Third column
+          </div>
+          <div className="column has-text-centered">
+            Fourth column
+          </div>
+        </div>
       </div>
     )
   }
