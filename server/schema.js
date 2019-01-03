@@ -59,7 +59,7 @@ module.exports = ({
     query: new GraphQLObjectType({
       name: 'RootQueryType',
       fields: {
-        // Field for retrieving a user by ID
+        // Field for retrieving docs
         docs: {
           type: new GraphQLList(docType),
           // args will automatically be mapped to `where`
